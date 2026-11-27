@@ -10,7 +10,7 @@ interface RootLayoutProps {
   }
   
 /* Welcome Page Layout */
-export default function RootLayout({ children }: RootLayoutProps): JSX.Element {    
+export default function RootLayout({ children }: RootLayoutProps): React.JSX.Element {    
     return (
         <html lang="en">
             <head>

@@ -1,6 +1,4 @@
-// @ts-ignore: Allow side-effect CSS imports without type declarations
 import "./globals.css";
-// @ts-ignore: Allow side-effect CSS imports without type declarations
 import "react-toastify/dist/ReactToastify.css";
 
 
@@ -14,7 +12,7 @@ interface RootLayoutProps {
   children: React.ReactNode;
 }
 
-export default function RootLayout({ children }: RootLayoutProps): JSX.Element {
+export default function RootLayout({ children }: RootLayoutProps): React.JSX.Element {
   return (
     <html lang="en">
       <head>

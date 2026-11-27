@@ -9,7 +9,7 @@ interface RootLayoutProps {
   children: React.ReactNode;
 }
 
-export default function RootLayout({ children }: RootLayoutProps): JSX.Element {
+export default function RootLayout({ children }: RootLayoutProps): React.JSX.Element {
   return (
       <html lang="en">
           <head>

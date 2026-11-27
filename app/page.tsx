@@ -11,7 +11,7 @@ const Preloader = dynamic(() => import("./components/Preloader"), {
   ssr: false,
 });
 
-export default function Home(): JSX.Element {
+export default function Home(): React.JSX.Element {
   const beginRef = useRef<HTMLButtonElement>(null);
   const [loading, setLoading] = useState(true);
 
