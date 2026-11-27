@@ -8,7 +8,6 @@ import Button from "../components/Button";
 import { useJsApiLoader, Autocomplete} from "@react-google-maps/api";
 import Blackbox from "../components/Blackbox";
 import { ToastContainer, toast } from "react-toastify";
-// @ts-ignore: allow side-effect CSS import without type declarations
 import { useRouter } from "next/navigation";
 
 interface LatLng {

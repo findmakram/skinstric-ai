@@ -1,6 +1,4 @@
-// @ts-ignore: Allow side-effect CSS imports without type declarations
 import "./globals.css";
-// @ts-ignore: Allow side-effect CSS imports without type declarations
 import "react-toastify/dist/ReactToastify.css";
 
 
